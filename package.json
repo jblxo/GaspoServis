@@ -1,0 +1,27 @@
+{
+  "name": "gasposervis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jblxo/GaspoServis.git"
+  },
+  "author": "Ondrej Hliba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jblxo/GaspoServis/issues"
+  },
+  "homepage": "https://github.com/jblxo/GaspoServis#readme",
+  "description": "",
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "node-sass": "^4.9.3"
+  },
+  "scripts": {
+    "compiles:sass": "node-sass ./sass/main.scss ./css/style.css -w",
+    "serve": "live-server"
+  }
+}
