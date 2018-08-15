@@ -27,3 +27,21 @@ body {
     animation: moveInDown 1s cubic-bezier(.77,-0.71,.51,.96);
   }
 }
+
+.heading-secondary {
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  font-weight: 700;
+  display: inline-block;
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+  background-image: linear-gradient(to right, $color-secondary-light, $color-secondary-dark);
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: all .2s;
+
+  &:hover {
+    transform: skew(15deg, 2deg) scale(1.1);
+    text-shadow: .5rem 1.5rem 2rem rgba($color-black, .2);
+  }
+}
