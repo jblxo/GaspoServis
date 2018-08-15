@@ -16,7 +16,7 @@ body {
     font-size: 6rem;
     font-weight: 400;
     letter-spacing: 2rem;
-    animation: moveInUp 1s ease-out;
+    animation: moveInUp 0.75s ease-out;
   }
 
   &--sub {
@@ -24,6 +24,6 @@ body {
     font-size: 2.5rem;
     font-weight: 700;
     letter-spacing: 1.65rem;
-    animation: moveInDown 1s ease-out;
+    animation: moveInDown 1s cubic-bezier(.77,-0.71,.51,.96);
   }
 }
