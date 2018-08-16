@@ -14,4 +14,9 @@
 
     @include absCenter;
   }
+
+  &__arrow-box {
+    position: relative;
+    margin-top: 45%;
+  }
 }

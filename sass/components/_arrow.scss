@@ -1,0 +1,35 @@
+.arrow {
+    &,
+    &:link,
+    &:visited {
+        display: inline-block;
+        font-size: 4.5rem;
+        position: relative;
+        padding: 1.2rem;
+        background-color: $color-white;
+        border-radius: 50rem;
+        text-decoration: none;
+        color: $color-black;
+    }
+
+    &::after {
+      content: "";
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      background-color: $color-white;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      border-radius: 50rem;
+    }
+
+    &--animated {
+        &::after {
+            animation: fadeOut 1s ease-out infinite;
+        }
+    }
+
+    
+}
