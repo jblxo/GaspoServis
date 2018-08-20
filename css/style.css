@@ -86,6 +86,12 @@ body {
 .u-margin-bottom-big {
   margin-bottom: 8rem !important; }
 
+.arrow-box {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%); }
+
 .arrow, .arrow:link, .arrow:visited {
   display: inline-block;
   font-size: 4.5rem;
@@ -198,9 +204,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
-  .header__arrow-box {
-    position: relative;
-    margin-top: 45%; }
 
 .section-about {
   background-color: #f7f7f7;
