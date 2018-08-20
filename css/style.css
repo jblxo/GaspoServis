@@ -71,7 +71,7 @@ body {
   font-weight: 700;
   display: inline-block;
   font-size: 3.5rem;
-  letter-spacing: 3px;
+  letter-spacing: 7.5px;
   background-image: linear-gradient(to right, #0f53c0, #03183a);
   -webkit-background-clip: text;
   color: transparent;
@@ -80,11 +80,19 @@ body {
     transform: skew(15deg, 2deg) scale(1.1);
     text-shadow: 0.5rem 1.5rem 2rem rgba(0, 0, 0, 0.2); }
 
+.heading-tertiary {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.6rem; }
+
 .u-center-text {
   text-align: center !important; }
 
 .u-margin-bottom-big {
   margin-bottom: 8rem !important; }
+
+.u-margin-bottom-small {
+  margin-bottom: 2rem !important; }
 
 .arrow-box {
   position: absolute;
@@ -161,6 +169,17 @@ body {
   left: 0;
   z-index: -1;
   transition: all 0.4s; }
+
+.feature-box {
+  background-color: rgba(3, 24, 58, 0.2);
+  border-radius: 3px;
+  font-size: 2rem;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+  transition: transform .3s; }
+  .feature-box:hover {
+    transform: translateY(-1.5rem) scale(1.03); }
 
 .row {
   max-width: 114rem;
