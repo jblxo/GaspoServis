@@ -52,4 +52,8 @@
         z-index: -1;
         transition: all 0.4s;
     }
+
+    &--animated {
+        animation: fadeIn 1s;
+    }
 }

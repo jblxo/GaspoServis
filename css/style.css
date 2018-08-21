@@ -26,6 +26,16 @@
     transform: scale(1.5);
     opacity: 0; } }
 
+@keyframes fadeIn {
+  0% {
+    transform: scale(0.7);
+    opacity: 0; }
+  50% {
+    transform: scale(1.2); }
+  100% {
+    transform: scale(1);
+    opacity: 1; } }
+
 *,
 *::after,
 *::before {
@@ -171,8 +181,11 @@ body {
   z-index: -1;
   transition: all 0.4s; }
 
+.btn--animated {
+  animation: fadeIn 1s; }
+
 .feature-box {
-  transition: color .5s; }
+  transition: all .5s; }
   .feature-box__icon {
     text-align: center;
     display: block;
@@ -181,8 +194,10 @@ body {
     padding: .5rem;
     font-size: 1rem;
     font-weight: 100; }
-  .feature-box:hover h3 {
-    color: #0f53c0; }
+  .feature-box:hover {
+    transform: translateY(-1rem); }
+    .feature-box:hover h3 {
+      color: #0f53c0; }
 
 .row {
   max-width: 114rem;
