@@ -1,17 +1,19 @@
 .feature-box {
-    background-color: rgba($color-secondary-dark, .2);
-    border-radius: 3px;
-    font-size: 2rem;
-    padding: 2rem;
-    text-align: center;
-    box-shadow: 0 2rem 4rem rgba($color-black, .2);
-    transition: transform .3s;
+    transition: color .5s;
 
-    &__text {
-
+    &__icon {
+        text-align: center;
+        display: block;
+        font-size: 5.5rem;
+    }
+    
+    &__details {
+        padding: .5rem;
+        font-size: 1rem;
+        font-weight: 100;
     }
 
-    &:hover {
-        transform: translateY(-1.5rem) scale(1.03);
+    &:hover h3 {
+        color: $color-secondary-light;    
     }
 }
