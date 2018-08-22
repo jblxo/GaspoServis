@@ -4,9 +4,16 @@
     margin-top: -17vh;
 }
 
+.section-contact-info {
+    height: 35rem;
+    padding: 20rem 0;
+    position: relative;
+}
+
 .section-contact {
     position: relative;
     padding: 15rem 0;
+    background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
 }
 
 .contact {

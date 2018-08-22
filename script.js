@@ -19,5 +19,4 @@ window.addEventListener('scroll', (e) => {
         return document.querySelector('#arrow').classList.remove('arrow--animated');
     }
     return document.querySelector('#arrow').classList.add('arrow--animated');
-})
-
+});
