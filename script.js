@@ -8,7 +8,7 @@ const scrollToSectionAbout = () => {
 
 const scrollToSectionContact = () => {
     window.scroll({
-        top: 1950,
+        top: 2500,
         left: 0,
         behavior: 'smooth'
     });
