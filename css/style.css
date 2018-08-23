@@ -283,6 +283,13 @@ body {
   visibility: hidden;
   transform: translateY(-4rem); }
 
+.footer {
+  background-color: #333435;
+  padding: 2rem 0;
+  font-size: 1.4rem;
+  color: #999;
+  text-align: center; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }

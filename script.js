@@ -20,3 +20,7 @@ window.addEventListener('scroll', (e) => {
     }
     return document.querySelector('#arrow').classList.add('arrow--animated');
 });
+
+const currentYear = new Date().getFullYear().toString();
+
+document.querySelector('#current-year').innerHTML = currentYear;
