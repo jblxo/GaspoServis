@@ -108,6 +108,12 @@ body {
 .u-margin-bottom-small {
   margin-bottom: 2rem !important; }
 
+.address {
+  font-size: 2.7rem; }
+  .address ul {
+    list-style-type: none;
+    text-align: center; }
+
 .arrow-box {
   position: absolute;
   bottom: 5%;
@@ -206,6 +212,24 @@ body {
 
 .btn--animated {
   animation: fadeIn 1s; }
+
+.contact-info {
+  text-align: center; }
+  .contact-info__box:not(:hover) .contact-info__text {
+    transform: translateY(8rem);
+    opacity: 0; }
+  .contact-info__box:not(:hover) .contact-info__icon {
+    transform: translateY(0);
+    color: #000; }
+  .contact-info__text {
+    color: #333435;
+    font-size: 1.8rem;
+    transition: all .4s; }
+  .contact-info__icon {
+    font-size: 5rem;
+    transform: translateY(4rem);
+    transition: all .4s;
+    color: #0f53c0; }
 
 .feature-box {
   transition: all .5s; }
@@ -308,7 +332,7 @@ body {
   margin-top: -17vh; }
 
 .section-contact-info {
-  height: 35rem;
+  margin-top: -12vh;
   padding: 20rem 0;
   position: relative; }
 

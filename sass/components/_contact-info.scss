@@ -1,5 +1,31 @@
 .contact-info {
 
+    text-align: center;
+
+    &__box:not(:hover) {
+        .contact-info__text {
+            transform: translateY(8rem);
+            opacity: 0;
+        }
+
+        .contact-info__icon {
+            transform: translateY(0);
+            color: $color-black;
+        }
+    }
+
+    &__text {
+        color: $color-grey-dark;
+        font-size: 1.8rem;
+        transition: all .4s;
+    }
+
+    &__icon {
+        font-size: 5rem;
+        transform: translateY(4rem);
+        transition: all .4s;
+        color: $color-secondary-light;
+    }
     
     
 }
