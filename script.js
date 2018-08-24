@@ -1,6 +1,6 @@
 const scrollToSectionAbout = () => {
     window.scroll({
-        top: 975,
+        top: 800,
         left: 0,
         behavior: 'smooth'
     });
@@ -8,7 +8,7 @@ const scrollToSectionAbout = () => {
 
 const scrollToSectionContact = () => {
     window.scroll({
-        top: 2500,
+        top: 2300,
         left: 0,
         behavior: 'smooth'
     });
